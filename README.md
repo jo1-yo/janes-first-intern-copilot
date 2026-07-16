@@ -1,6 +1,6 @@
-# first-intern 🎯
+# Jane's First Intern Copilot 🎯
 
-**The playbook I used to land my first internship — no connections, no experience, no prestige. Now packaged as a skill for Claude.**
+**The playbook I used to land my first internship — no connections, no experience, no prestige. Now packaged as a skill for Claude.** (The skill itself is named `first-intern` — that's the folder name Claude sees.)
 
 Three things got me hired: a ruthlessly concise resume, a high-volume application system, and cold emails sent straight to startup founders. My boss later told me why I got picked out of the pile: *my information was concise and my writing was sharp.* That's not a talent — it's a method, and this skill teaches it to Claude so Claude can coach you through it.
 
@@ -50,14 +50,16 @@ A skill is just a folder of Markdown files that Claude reads when the topic come
 **Option A — personal skill (available in every project):**
 
 ```bash
-git clone https://github.com/jo1-yo/first-intern.git ~/.claude/skills/first-intern
+git clone https://github.com/jo1-yo/janes-first-intern-copilot.git ~/.claude/skills/first-intern
 ```
 
 **Option B — project skill (available only inside one project, shareable with teammates via git):**
 
 ```bash
-git clone https://github.com/jo1-yo/first-intern.git .claude/skills/first-intern
+git clone https://github.com/jo1-yo/janes-first-intern-copilot.git .claude/skills/first-intern
 ```
+
+Note the target folder is `first-intern` (the skill's name), not the repo name — keep it that way so Claude registers the skill correctly.
 
 That's the whole installation. No build step, no dependencies, no configuration. To update later, run `git pull` inside the folder. To uninstall, delete the folder.
 
@@ -67,7 +69,7 @@ Claude.ai accepts skills as an uploaded zip file:
 
 1. Download this repo as a zip (green **Code** button → **Download ZIP**), or build one yourself:
    ```bash
-   git clone https://github.com/jo1-yo/first-intern.git
+   git clone https://github.com/jo1-yo/janes-first-intern-copilot.git first-intern
    cd first-intern && zip -r first-intern.zip . -x ".git/*"
    ```
 2. In Claude.ai or the desktop app, open **Settings → Capabilities → Skills** (naming may vary slightly by plan).
@@ -190,7 +192,7 @@ The skill is **English-native**: all templates, examples, and produced materials
 ## Repository structure
 
 ```
-first-intern/
+janes-first-intern-copilot/          # install as ~/.claude/skills/first-intern
 ├── SKILL.md                      # Entry point: the method, operating rules, and flow Claude follows
 ├── references/
 │   ├── resume.md                 # Concise resume rewriting: Step-0 extraction, C-A-R bullets, 6-second test
