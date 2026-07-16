@@ -14,6 +14,8 @@ Never give resume advice from a skim. First parse the resume into a structured i
 
 Every recommendation after this point must reference a specific line of *their* resume. If a suggestion could be pasted into a review of anyone's resume, it's filler — cut it. The extraction is also what earns the user's trust: they can see you actually read it, and they can correct you before you rewrite.
 
+**Present the extraction conversationally, not as an audit.** The rigor is in the reading, not the formatting — recap what you found in a few tight sentences a person would say ("Three schools, a real SWE internship, two founder projects with money attached — your strongest line is the MCP one, and your weakest habit is cramming three actions into one bullet"), then let the user correct you. No scored tables, no per-bullet ✓/✗ grids; the framework runs in your head.
+
 ## The diagnosis
 
 From the extraction, identify and state:
@@ -81,7 +83,7 @@ If either answer is fuzzy, restructure — usually by promoting the strongest bu
 ## How to run a resume session
 
 1. Get the current resume (or raw-material inventory) and the target role(s).
-2. **Step 0 extraction** — show the structured inventory, let the user correct it.
+2. **Step 0 extraction** — recap what you read (conversationally, per above), let the user correct it.
 3. **Diagnose before editing**: the 6-second-test read, citing their actual lines.
 4. Rewrite bullet by bullet, showing `before → after` in C-A-R form. Explain a principle the first time it applies, then just apply it.
 5. **Interview for numbers.** Users almost always have quantifiable outcomes they never thought to mention: "How many people used it? How often? Compared to what? What happened because of it?"
