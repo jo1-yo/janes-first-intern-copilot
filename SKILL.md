@@ -1,5 +1,5 @@
 ---
-name: first-intern
+name: jane-first-intern-copilot
 description: A battle-tested playbook for landing a first internship or first job with no connections and no experience — concise resume rewriting, a high-volume application system, and cold emails to startup founders. Use this whenever the user mentions internships, job hunting, resumes, CVs, cover letters, cold emails or DMs to founders or recruiters, applying to companies, getting no replies to applications, or asks "how do I get experience with no experience" — even if they only ask about one small piece, like fixing a single resume bullet.
 ---
 

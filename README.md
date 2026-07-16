@@ -1,6 +1,6 @@
 # Jane's First Intern Copilot 🎯
 
-**The playbook I used to land my first internship — no connections, no experience, no prestige. Now packaged as a skill for Claude.** (The skill itself is named `first-intern` — that's the folder name Claude sees.)
+**The playbook I used to land my first internship — no connections, no experience, no prestige. Now packaged as a skill for Claude.** (The skill's name is `jane-first-intern-copilot` — you can invoke it directly with `/jane-first-intern-copilot`, or just talk about internships and it triggers on its own.)
 
 Three things got me hired: a ruthlessly concise resume, a high-volume application system, and cold emails sent straight to startup founders. My boss later told me why I got picked out of the pile: *my information was concise and my writing was sharp.* That's not a talent — it's a method, and this skill teaches it to Claude so Claude can coach you through it.
 
@@ -50,16 +50,16 @@ A skill is just a folder of Markdown files that Claude reads when the topic come
 **Option A — personal skill (available in every project):**
 
 ```bash
-git clone https://github.com/jo1-yo/janes-first-intern-copilot.git ~/.claude/skills/first-intern
+git clone https://github.com/jo1-yo/janes-first-intern-copilot.git ~/.claude/skills/jane-first-intern-copilot
 ```
 
 **Option B — project skill (available only inside one project, shareable with teammates via git):**
 
 ```bash
-git clone https://github.com/jo1-yo/janes-first-intern-copilot.git .claude/skills/first-intern
+git clone https://github.com/jo1-yo/janes-first-intern-copilot.git .claude/skills/jane-first-intern-copilot
 ```
 
-Note the target folder is `first-intern` (the skill's name), not the repo name — keep it that way so Claude registers the skill correctly.
+The target folder must be named `jane-first-intern-copilot` — it has to match the skill's `name` in [SKILL.md](SKILL.md) for Claude to register it (and it's what the `/jane-first-intern-copilot` command is named after).
 
 That's the whole installation. No build step, no dependencies, no configuration. To update later, run `git pull` inside the folder. To uninstall, delete the folder.
 
@@ -69,19 +69,22 @@ Claude.ai accepts skills as an uploaded zip file:
 
 1. Download this repo as a zip (green **Code** button → **Download ZIP**), or build one yourself:
    ```bash
-   git clone https://github.com/jo1-yo/janes-first-intern-copilot.git first-intern
-   cd first-intern && zip -r first-intern.zip . -x ".git/*"
+   git clone https://github.com/jo1-yo/janes-first-intern-copilot.git jane-first-intern-copilot
+   cd jane-first-intern-copilot && zip -r jane-first-intern-copilot.zip . -x ".git/*"
    ```
 2. In Claude.ai or the desktop app, open **Settings → Capabilities → Skills** (naming may vary slightly by plan).
 3. Upload the zip. The skill activates automatically in new conversations.
 
 ### Verify it's working
 
-Start a new conversation and say something like *"I need help finding my first internship."* If the skill is installed, Claude's answer will follow this playbook's flow — it will **ask for your resume before giving any advice** (that's the skill's signature move), instead of dumping generic tips. In Claude Code you can also just check that the folder exists at `~/.claude/skills/first-intern/SKILL.md`.
+Start a new conversation and type `/jane` — the command menu should autocomplete to `/jane-first-intern-copilot`. Or say something like *"I need help finding my first internship."* If the skill is installed, Claude's answer will follow this playbook's flow — it will **ask for your resume before giving any advice** (that's the skill's signature move), instead of dumping generic tips. In Claude Code you can also just check that the folder exists at `~/.claude/skills/jane-first-intern-copilot/SKILL.md`.
 
 ## How to use it
 
-You don't invoke this skill with a command — it triggers automatically whenever your conversation touches internships, job hunting, resumes, CVs, cover letters, cold emails, or "no one is replying to my applications." Just talk to Claude normally.
+Two ways to trigger it:
+
+- **Automatically** — it activates whenever your conversation touches internships, job hunting, resumes, CVs, cover letters, cold emails, or "no one is replying to my applications." Just talk to Claude normally.
+- **Explicitly** — type `/jane-first-intern-copilot` (in Claude Code) to invoke it directly, e.g. `/jane-first-intern-copilot help me fix my resume`.
 
 You can start from any of the three workflows, or hand Claude the whole problem. Here's what each one looks like in practice.
 
@@ -192,7 +195,7 @@ The skill is **English-native**: all templates, examples, and produced materials
 ## Repository structure
 
 ```
-janes-first-intern-copilot/          # install as ~/.claude/skills/first-intern
+janes-first-intern-copilot/          # install as ~/.claude/skills/jane-first-intern-copilot
 ├── SKILL.md                      # Entry point: the method, operating rules, and flow Claude follows
 ├── references/
 │   ├── resume.md                 # Concise resume rewriting: Step-0 extraction, C-A-R bullets, 6-second test
