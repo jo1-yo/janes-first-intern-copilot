@@ -2,7 +2,7 @@
 
 **The playbook I used to land my first internship — no connections, no experience, no prestige. Now packaged as a skill for Claude.** (The skill's name is `jane-first-intern-copilot` — you can invoke it directly with `/jane-first-intern-copilot`, or just talk about internships and it triggers on its own.)
 
-Three things got me hired: a ruthlessly concise resume, a high-volume application system, and cold emails sent straight to startup founders. My boss later told me why I got picked out of the pile: *my information was concise and my writing was sharp.* That's not a talent — it's a method, and this skill teaches it to Claude so Claude can coach you through it.
+Three things got me hired: a ruthlessly concise resume, a high-volume application system, and cold emails sent straight to startup founders. My boss later told me why I got picked out of the pile: *my information was concise and my intention was clear.* This skill teaches it to Claude so Claude can coach you through it.
 
 English is the skill's native language — every template and example is written the way a founder actually reads. [Chinese Instructions →](README.zh.md)
 
