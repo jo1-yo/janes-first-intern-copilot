@@ -1,5 +1,7 @@
 # The Concise Resume
 
+> **Source:** this workflow is distilled from [Stanford Career Education](https://careered.stanford.edu/resources)'s published resume resources (Resources → Resume): *CAR Method for Developing Resume Content*, *Action Verb List*, *What Kind of "Opportunities" Count as Experience on your Resume*, *Steps to Writing Your Resume*, *ATS Resume*, *Resume Review Checklist*, and their samples/templates. Independent project; not affiliated with or endorsed by Stanford University.
+
 A resume's job is not to describe the user — it's to earn a conversation. A screener gives it about 6 seconds on first pass, and increasingly the first screen is an AI/ATS pass before any human sees it. Every line either moves toward "let's talk to this person" or gets cut.
 
 ## Step 0 — Extract before advising (mandatory)

@@ -8,7 +8,7 @@
 
 ## 它能帮你做什么
 
-1. **改简历** — 一页纸，每条 bullet 都是 C-A-R 结构（Context–Action–Result），删掉所有空话套话。内置招聘者真实使用的"6 秒测试"。
+1. **改简历** — 一页纸，每条 bullet 都是 C-A-R 结构（Context–Action–Result），删掉所有空话套话。内置招聘者真实使用的"6 秒测试"。改简历的方法论**完全提炼自 [Stanford Career Education](https://careered.stanford.edu/resources)（斯坦福就业指导中心）公开发布的简历资源**——C-A-R 方法、动词表、"什么算经历"、ATS 筛选、简历检查清单都来自那里（Resources → Resume 一节），这个 skill 做的是把它们蒸馏成 Claude 能直接执行的规则。（个人项目，与斯坦福大学无关联、未获其背书。）
 2. **搭建海投系统** — 申请追踪表、根据 deadline 倒推的每日配额、目标分级（A/B/C）、每 ~25 份申请做一次漏斗复盘。让"没有回复"变成数据而不是打击。
 3. **写创始人 cold email** — 两套模版：~60 词的极简 fit 版（作者本人拿到实习用的就是它）和 ≤120 词的 hook 版，外加预先写好日期的两封 follow-up。这是转化率最高、但没人教学生的渠道。
 

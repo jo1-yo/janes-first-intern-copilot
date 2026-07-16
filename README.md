@@ -20,6 +20,7 @@ English is the skill's native language — every template and example is written
   - [Workflow 2 — Build your application system](#workflow-2--build-your-application-system)
   - [Workflow 3 — Cold email a founder](#workflow-3--cold-email-a-founder)
   - [Full engagement — "help me find an internship"](#full-engagement--help-me-find-an-internship)
+- [Where the resume method comes from](#where-the-resume-method-comes-from)
 - [What Claude will refuse to do](#what-claude-will-refuse-to-do)
 - [Language](#language)
 - [Repository structure](#repository-structure)
@@ -83,6 +84,8 @@ You don't invoke this skill with a command — it triggers automatically wheneve
 You can start from any of the three workflows, or hand Claude the whole problem. Here's what each one looks like in practice.
 
 ### Workflow 1 — Fix your resume
+
+The resume methodology isn't invented — it's distilled from **Stanford Career Education's** published resume resources (see [Where the resume method comes from](#where-the-resume-method-comes-from)).
 
 **Say something like:**
 
@@ -150,6 +153,24 @@ There's also a LinkedIn-DM variant (≤300 characters) for when the channel is L
 > *"I need a summer internship in 2 months and I have no resume and no idea where to start."*
 
 Claude runs all three workflows as one plan: gets your resume (or builds one from scratch) → diagnoses → delivers, in order: best internship directions with evidence-based reasoning → resume rewrite → a live-openings shortlist → one personalized cold email + LinkedIn message → **exactly three prioritized next actions** with deadlines. Never a sprawling checklist.
+
+## Where the resume method comes from
+
+The resume workflow is not folk advice — it's a distillation of the resume guidance published by **[Stanford Career Education](https://careered.stanford.edu/resources)** (Stanford's career center), condensed into rules Claude can apply directly. The mapping:
+
+| In this skill | Stanford Career Education resource (under **Resources → Resume**) |
+|---|---|
+| C-A-R bullets (Context–Action–Result) | *CAR Method for Developing Resume Content* |
+| The action-verb lists and the "verbs to kill" | *Action Verb List* |
+| "What counts as experience" (part-time jobs, clubs, course projects, volunteering…) | *What Kind of "Opportunities" Count as Experience on your Resume* |
+| One-page rules, formatting, structure | *Steps to Writing Your Resume* |
+| The automated first screen (ATS) and why concision survives it | *ATS Resume* |
+| The dedicated QA pass | *Resume Review Checklist* |
+| "Use your school's career-center template" | *Resume Samples and Templates* |
+
+If you're a Stanford student, use the originals — they're free at the link above. What this skill adds is the operationalization: the Step-0 extraction, the 6-second test, the before→after rewrites, and the honesty guardrails, applied to *your* actual resume in conversation.
+
+> This is an independent project by a student who used these resources. It is **not affiliated with or endorsed by Stanford University**.
 
 ## What Claude will refuse to do
 

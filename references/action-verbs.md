@@ -1,5 +1,7 @@
 # Action Verbs
 
+> **Source:** adapted from the *Action Verb List* published by [Stanford Career Education](https://careered.stanford.edu/resources) (Resources → Resume).
+
 Every bullet starts with an active verb — it's the A in C-A-R. Pick the verb that says most precisely what the user did; vary verbs so no verb opens more than two bullets on the page.
 
 ## Verbs to kill on sight
