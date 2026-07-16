@@ -4,7 +4,7 @@
 
 Three things got me hired: a ruthlessly concise resume, a high-volume application system, and cold emails sent straight to startup founders. My boss later told me why I got picked out of the pile: *my information was concise and my writing was sharp.* That's not a talent — it's a method, and this skill teaches it to Claude so Claude can coach you through it.
 
-English is the skill's native language — every template and example is written the way a founder actually reads. [中文版说明 →](README.zh.md)
+English is the skill's native language — every template and example is written the way a founder actually reads. [Chinese Instructions →](README.zh.md)
 
 ---
 
