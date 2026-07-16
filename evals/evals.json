@@ -1,0 +1,49 @@
+{
+  "skill_name": "first-intern",
+  "evals": [
+    {
+      "id": 0,
+      "name": "resume-no-replies",
+      "prompt": "i'm a sophomore studying communications and i've applied to like 40 marketing internships since may with literally zero replies. someone said my resume might be the problem. here it is:\n\nJESSICA PARK\njessica.park@email.com | (555) 123-4567\n\nOBJECTIVE\nSeeking a challenging marketing internship position at a dynamic company where I can utilize my skills and grow professionally.\n\nEDUCATION\nState University — B.A. Communications, Expected May 2028. GPA 3.6\n\nEXPERIENCE\nMarketing Committee Member, Business Students Association (Sep 2025–present)\n- Responsible for helping with social media content\n- Participated in weekly meetings and brainstorming sessions\n- Assisted with planning of student events\n\nBarista, Campus Coffee (Jun 2024–present)\n- Responsible for making drinks and providing customer service\n- Worked well in a fast-paced team environment\n\nSKILLS\nMicrosoft Office, Canva, teamwork, communication, time management, detail-oriented\n\ncan you fix it?",
+      "expected_output": "A diagnosis of why the resume gets no replies (screener's 6-second view), then a full rewritten one-page resume with before→after bullets: filler phrases removed, quantified/concrete outcomes, objective statement and soft-skill list cut.",
+      "files": [],
+      "assertions": [
+        "Diagnoses WHY the resume gets no replies (what a screener sees in a few seconds) before rewriting, not just edits",
+        "Delivers a complete rewritten resume ready to copy-paste, not just fragments or tips",
+        "Filler from the input does not survive: no 'Responsible for/Participated in/Assisted with', no Objective statement, no soft-skill list in the rewrite",
+        "Rewritten bullets are concrete/quantified, with unknown numbers handled honestly (placeholders or questions to fill in), not invented as established fact",
+        "Rewrite stays one page and concise — no new fluff sections added"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "founder-cold-email",
+      "prompt": "There's this small AI note-taking startup called Reverie (reverie.app) that I'm obsessed with — I use it daily for my lecture notes. I want to email the founder to ask about a summer internship but I have no idea what to say and I don't want to sound desperate. About me: junior studying marketing, I run a studytok tiktok account with about 20k followers where I post note-taking and study content. never written a cold email in my life. help?",
+      "expected_output": "A ready-to-send cold email: concrete subject line, body ≤120 words, opening hook specific to Reverie, the 20k TikTok proof point with the number, one small specific ask, plus pre-written follow-ups with a day 3-4 / day 8-10 cadence.",
+      "files": [],
+      "assertions": [
+        "Delivers a ready-to-send email with a concrete, specific subject line (not 'Internship Inquiry' style)",
+        "Email body is at most ~150 words with no wall-of-text paragraphs",
+        "Opens with a hook specific to Reverie (the daily lecture-notes usage or a product detail), not generic flattery",
+        "Includes the 20k-follower TikTok proof point with the number",
+        "Ends with one small, specific, easy-to-say-yes ask — not 'do you have any openings?'",
+        "Provides follow-up email(s) or an explicit follow-up schedule with a stop point"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "zero-to-plan",
+      "prompt": "I just realized everyone in my program already has summer internships lined up and I have NOTHING. I'm a second-year graphic design student, I need an internship by early September (it's mid-July now), I don't have a resume, I have some class projects and a dribbble portfolio I haven't updated in a year. No connections at all. where do I even start??",
+      "expected_output": "A concrete, dated plan working back from early September: resume/portfolio first, then a volume system with quota math and a tracker, plus founder cold-email outreach. Covers all three legs with realistic reply-rate expectations.",
+      "files": [],
+      "assertions": [
+        "States explicit assumptions about target roles/market (since the user can't answer follow-up questions)",
+        "Plan is sequenced against the early-September deadline with concrete dates or week-by-week structure",
+        "Includes a volume target with daily or weekly quota math, not vague 'apply to lots of places'",
+        "Includes an application tracking system (tracker/spreadsheet)",
+        "Covers all three legs: resume+portfolio fix, high-volume applications, AND direct cold outreach to studios/founders",
+        "Sets realistic reply-rate expectations, framing silence as normal data rather than failure"
+      ]
+    }
+  ]
+}
